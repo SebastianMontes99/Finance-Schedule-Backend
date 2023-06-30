@@ -17,6 +17,10 @@ public class ResultadoPago {
     private Long id;
     @Column(name="mes",nullable = false,length = 50)
     private double mes;
+    @Column(name="tipoPlazoGracia",nullable = false,length = 50)
+    private String tipoPlazoGracia;
+    @Column(name="saldoInicial",nullable = false,length = 50)
+    private double saldoInicial;
     @Column(name="saldoDeuda",nullable = false,length = 50)
     private double saldoDeuda;
     @Column(name="intereses",nullable = false,length = 50)

@@ -24,10 +24,14 @@ public class PlanPagos {
     private double capital;
     @Column(name="tasaInteres",nullable = false,length = 50)
     private double tasaInteres;
+    @Column(name="prestamo",nullable = false,length = 50)
+    private double prestamo;
     @Column(name="plazo",nullable = false,length = 50)
     private int plazo;
     @Column(name="periodoGracia",nullable = false,length = 50)
     private int periodoGracia;
+    @Column(name="tipoPlazoGracia",nullable = false,length = 50)
+    private String tipoPlazoGracia;
     @Column(name="moneda",nullable = false,length = 50)
     private int moneda;
     @Column(name="tipoTasaInteres",nullable = false,length = 50)
